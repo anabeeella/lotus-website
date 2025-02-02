@@ -4,7 +4,7 @@ import Hero from './components/Hero'
 import Services from './components/Services'
 import Portfolio from './components/Portfolio'
 import AboutUs from './components/AboutUs'
-import Blog from './components/Blog'
+import WhyLotus from './components/WhyLotus'
 import Contact from './components/Contact'
 import lotusLogo from './assets/11.png'
 import { Routes, Route } from 'react-router-dom'
@@ -21,9 +21,9 @@ function App() {
           <Header logo={lotusLogo} />
           <Hero />
           <Services />
+          <WhyLotus />
           <Portfolio />
           <AboutUs />
-          <Blog />
           <Contact />
         </Container>
       } />

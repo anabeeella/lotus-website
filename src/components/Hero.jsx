@@ -40,7 +40,7 @@ export default function Hero() {
               mb={8}
               color="white"
             >
-              Transformamos tu presencia digital con estrategias innovadoras
+              Impulsamos tu negocio con estrategias digitales efectivas
             </Text>
             <Button
               colorScheme="primary"

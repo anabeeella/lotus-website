@@ -23,7 +23,12 @@ function Services() {
   return (
     <Box as="section" id="services" py={12} display="flex" justifyContent="center" alignItems="center" h="90vh">
       <Container maxW="container.xl">
-        <Heading as="h2" mb={8} textAlign="center">
+      <Box marginBottom="40px">
+          <Text>Somos una agencia especializada en Social Media Marketing, ubicada en el corazón de Sicilia, Italia. Nos dedicamos a ayudar a emprendedores y pequeñas empresas a crecer, destacarse y conectar con su público a través de estrategias digitales personalizadas.
+          </Text>
+          <Text>Creemos que cada marca tiene una historia única que contar, y nuestro propósito es traducir esa esencia en estrategias de alto impacto, combinando creatividad, datos y tecnología para lograr resultados reales.</Text>
+        </Box>
+        <Heading as="h3" mb={8} textAlign="center" >
           Nuestros Servicios
         </Heading>
         <SimpleGrid columns={[1, 2, 3]} spacing={8}>
